@@ -1,12 +1,10 @@
-# Copyright (c) 2013 Aparajita Fishman
-# Change for CudaLint: Alexey T.
+# Copyright (c) 2014 Alec Thomas
+# Change for CudaLint: Medvosa
 # License: MIT
 
 import os
-
 import shlex
 import tempfile
-
 from cuda_lint import Linter, util, options
 
 class GometaLint(Linter):
