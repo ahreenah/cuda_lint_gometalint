@@ -67,10 +67,3 @@ class GometaLint(Linter):
 
             out = self.communicate(cmd)
         return out or ''
-        '''
-    
-    syntax = ('HTML', 'HTML_','Go')
-    cmd = (_exe, '-errors', '-quiet', '-utf8')
-
-    regex = r'^line (?P<line>\d+) column (?P<col>\d+) - (?:(?P<error>Error)|(?P<warning>Warning)): (?P<message>.+)'
-    error_stream = util.STREAM_STDERR'''
