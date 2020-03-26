@@ -3,7 +3,7 @@ Supports Go lexer.
 
 It uses gometa tool:
 - on Linux/macOS: install "gometa" package like this
-  + install Go
+  + install Go from https://golang.org/dl/
   + install gometalinter
     ```
     go get github.com/alecthomas/gometalinter
